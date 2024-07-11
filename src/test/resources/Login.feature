@@ -1,5 +1,6 @@
 Feature: Login scenarios
 
+  @Login
   Scenario Outline: Login with invalid username
     Given I enter user name "<username>"
     And I enter the password "<password>"
@@ -7,7 +8,7 @@ Feature: Login scenarios
     Then I get the error message "<error_message>"
     Examples:
       | username | password | error_message                                                |
-      | invalid  | invalid  | Username and password do not match any user in this service. |
+      | invalid  | invalid  | ZZZUsername and password do not match any user in this service. |
 
   Scenario Outline: Login with valid credentials
     Given I enter user name "<username>"

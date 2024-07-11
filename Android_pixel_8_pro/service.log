@@ -1,0 +1,189 @@
+2024-07-10 23:40:45:127 [Appium] Welcome to Appium v2.10.3
+2024-07-10 23:40:45:131 [Appium] Non-default server args:
+2024-07-10 23:40:45:134 [Appium] { localTimezone: true, port: 13911, sessionOverride: true }
+2024-07-10 23:40:45:135 [Appium] The autodetected Appium home path: C:\Users\Adderly\.appium
+2024-07-10 23:40:45:136 [Appium] Attempting to load driver uiautomator2...
+2024-07-10 23:40:45:139 [Appium] Requiring driver at C:\Users\Adderly\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+2024-07-10 23:40:46:340 [Appium] AndroidUiautomator2Driver has been successfully loaded in 1.204s
+2024-07-10 23:40:46:377 [Appium] Appium REST http interface listener started on http://0.0.0.0:13911
+2024-07-10 23:40:46:384 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://172.25.240.1:13911/
+	http://192.168.56.1:13911/
+	http://192.168.18.11:13911/
+	http://127.0.0.1:13911/ (only accessible from the same host)
+2024-07-10 23:40:46:385 [Appium] Available drivers:
+2024-07-10 23:40:46:385 [Appium]   - uiautomator2@2.45.1 (automationName 'UiAutomator2')
+2024-07-10 23:40:46:386 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-07-10 23:40:46:479 [HTTP] --> GET /status {}
+2024-07-10 23:40:46:480 [AppiumDriver@9bad] Calling AppiumDriver.getStatus() with args: []
+2024-07-10 23:40:46:482 [AppiumDriver@9bad] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.10.3"}}
+2024-07-10 23:40:46:489 [HTTP] <-- GET /status 200 7 ms - 111 
+2024-07-10 23:40:46:494 [HTTP] --> GET /status {}
+2024-07-10 23:40:46:494 [AppiumDriver@9bad] Calling AppiumDriver.getStatus() with args: []
+2024-07-10 23:40:46:495 [AppiumDriver@9bad] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.10.3"}}
+2024-07-10 23:40:46:497 [HTTP] <-- GET /status 200 2 ms - 111 
+2024-07-10 23:40:47:865 [HTTP] Request idempotency key: c166aa37-8084-4032-86fc-34092ba74f06
+2024-07-10 23:40:47:879 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":10002,"appium:udid":"emulator-5554","appium:chromedriverPort":11002,"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:deviceName":"pixel_8_pro","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\Adderly\\IdeaProjects\\bdd-appium-udemy\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appPackage":"com.swaglabsmobileapp"}]}}
+2024-07-10 23:40:47:880 [AppiumDriver@9bad] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:systemPort":10002,"appium:udid":"emulator-5554","appium:chromedriverPort":11002,"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:deviceName":"pixel_8_pro","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\Adderly\\IdeaProjects\\bdd-appium-udemy\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appPackage":"com.swaglabsmobileapp"}]}]
+2024-07-10 23:40:47:880 [AppiumDriver@9bad] Event 'newSessionRequested' logged at 1720672847880 (23:40:47 GMT-0500 (Peru Standard Time))
+2024-07-10 23:40:47:885 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2024-07-10 23:40:47:885 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2024-07-10 23:40:47:885 [Appium] Will require it at C:\Users\Adderly\.appium\node_modules\appium-uiautomator2-driver
+2024-07-10 23:40:47:887 [Appium] Requiring driver at C:\Users\Adderly\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+2024-07-10 23:40:47:888 [AppiumDriver@9bad] Appium v2.10.3 creating new AndroidUiautomator2Driver (v2.45.1) session
+2024-07-10 23:40:47:888 [AppiumDriver@9bad] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2024-07-10 23:40:47:888 [AppiumDriver@9bad] Appium's BaseDriver version is 9.10.3
+2024-07-10 23:40:47:888 [AppiumDriver@9bad] AndroidUiautomator2Driver's BaseDriver version is 9.10.3
+2024-07-10 23:40:47:889 [AppiumDriver@9bad] There are no active sessions for cleanup
+2024-07-10 23:40:47:894 [38;5;-169m[AndroidUiautomator2Driver@4dbf] undefined
+2024-07-10 23:40:47:894 [38;5;-169m[AndroidUiautomator2Driver@4dbf] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:systemPort": 10002,
+    "appium:udid": "emulator-5554",
+    "appium:chromedriverPort": 11002,
+    "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+    "appium:deviceName": "pixel_8_pro",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "C:\\Users\\Adderly\\IdeaProjects\\bdd-appium-udemy\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+    "appium:appPackage": "com.swaglabsmobileapp"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2024-07-10 23:40:47:902 [38;5;-169m[AndroidUiautomator2Driver@4dbf] Session created with session id: 548f1822-3ca8-4583-9f09-0b851306ef12
+2024-07-10 23:40:47:917 [ADB] Found 4 'build-tools' folders under 'C:\Users\Adderly\AppData\Local\Android\Sdk' (newest first):
+2024-07-10 23:40:47:917 [ADB]     C:\Users\Adderly\AppData\Local\Android\Sdk\build-tools\35.0.0
+2024-07-10 23:40:47:917 [ADB]     C:\Users\Adderly\AppData\Local\Android\Sdk\build-tools\33.0.1
+2024-07-10 23:40:47:917 [ADB]     C:\Users\Adderly\AppData\Local\Android\Sdk\build-tools\33.0.0
+2024-07-10 23:40:47:917 [ADB]     C:\Users\Adderly\AppData\Local\Android\Sdk\build-tools\30.0.3
+2024-07-10 23:40:47:918 [ADB] Using 'adb.exe' from 'C:\Users\Adderly\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-07-10 23:40:47:919 [ADB] Running 'C:\Users\Adderly\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-07-10 23:40:47:945 [38;5;-169m[AndroidUiautomator2Driver@4dbf] Retrieving device list
+2024-07-10 23:40:47:945 [ADB] Trying to find connected Android devices
+2024-07-10 23:40:47:946 [ADB] Getting connected devices
+2024-07-10 23:40:47:971 [ADB] Connected devices: [{"udid":"2dcaa2ce","state":"device"},{"udid":"emulator-5554","state":"device"}]
+2024-07-10 23:40:47:972 [38;5;-169m[AndroidUiautomator2Driver@4dbf] Using device: emulator-5554
+2024-07-10 23:46:28:343 [ADB] Using 'adb.exe' from 'C:\Users\Adderly\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-07-10 23:46:28:350 [ADB] Running 'C:\Users\Adderly\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-07-10 23:46:28:359 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:18)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+    at readableAddChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:132:32)
+    at DerivedLogger._transform (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:313:12)
+    at DerivedLogger.Transform._read (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:155:83)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.<computed> [as debug] (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\create-logger.js:81:14)
+2024-07-10 23:46:28:361 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:18)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+    at readableAddChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:132:32)
+    at DerivedLogger._transform (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:313:12)
+    at DerivedLogger.Transform._read (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:155:83)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:216:12)
+2024-07-10 23:46:28:362 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:18)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+    at readableAddChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:132:32)
+    at DerivedLogger._transform (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:313:12)
+    at DerivedLogger.Transform._read (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:155:83)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:216:12)
+2024-07-10 23:46:28:364 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:18)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+    at readableAddChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:132:32)
+    at DerivedLogger._transform (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:313:12)
+    at DerivedLogger.Transform._read (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:155:83)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:216:12)
+2024-07-10 23:46:28:365 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:18)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+    at readableAddChunk (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:132:32)
+    at DerivedLogger._transform (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:313:12)
+    at DerivedLogger.Transform._read (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:155:83)
+    at doWrite (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.log (C:\Users\Adderly\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:216:12)

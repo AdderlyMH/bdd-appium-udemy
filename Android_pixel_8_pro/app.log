@@ -1,0 +1,4 @@
+[Android_pixel_8_pro INFO ] 2024-07-10 23:40:47.062 ServerManager:33 - Appium Service started
+[Android_pixel_8_pro INFO ] 2024-07-10 23:40:47.205 DriverManager:25 - Initializing Appium driver...
+[Android_pixel_8_pro INFO ] 2024-07-10 23:40:47.219 DriverManager:38 - params.getPlatformName() = Android
+[Android_pixel_8_pro INFO ] 2024-07-10 23:40:47.270 PropertyManager:17 - Loaded properties file

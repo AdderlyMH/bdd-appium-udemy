@@ -5,10 +5,10 @@ Feature: Product scenarios
     Then the product is listed with title "<title>" and price "<price>"
     Examples:
       | title                             | price  |
-      | Sauce Labs Bolt T-Shirt           | $15.99 |
+#      | Sauce Labs Bolt T-Shirt           | $15.99 |
 #      | Sauce Labs Onesie                 | $7.99  |
 #      | Test.allTheThings() T-Shirt (Red) | $15.99 |
-#      | Sauce Labs Backpack               | $29.99 |
+      | Sauce Labs Backpack               | $29.99 |
 
   Scenario Outline: Validate product info on Products Details page
     Given I'm logged in
