@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1" parallel="tests">
+    <test name="EmulatorTest">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="pixel_8_pro"/>
+        <parameter name="systemPort" value="10000"/>
+        <parameter name="chromeDriverPort" value="11000"/>
+        <classes>
+            <class name="com.qa.runners.MyPixel8ProTestNGRunnerTest"/>
+        </classes>
+    </test>
+    <test name="RealDeviceTest">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="2dcaa2ce"/>
+        <parameter name="deviceName" value="2201117TL"/>
+        <parameter name="systemPort" value="10001"/>
+        <parameter name="chromeDriverPort" value="11001"/>
+        <classes>
+            <class name="com.qa.runners.MyRedmiNote11TestNGRunnerTest"/>
+        </classes>
+    </test>
+</suite>

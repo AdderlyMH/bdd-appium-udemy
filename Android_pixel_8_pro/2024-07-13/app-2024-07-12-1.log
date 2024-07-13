@@ -1,0 +1,41 @@
+[Android_pixel_8_pro INFO ] 2024-07-12 01:36:25.567 ServerManager:33 - Appium Service started
+[Android_pixel_8_pro INFO ] 2024-07-12 01:36:25.791 DriverManager:25 - Initializing Appium driver...
+[Android_pixel_8_pro INFO ] 2024-07-12 01:36:25.806 DriverManager:38 - params.getPlatformName() = Android
+[Android_pixel_8_pro INFO ] 2024-07-12 01:36:25.848 PropertyManager:17 - Loaded properties file
+[Android_pixel_8_pro FATAL] 2024-07-12 01:36:48.651 DriverManager:30 - Driver initialization failed. ABORT! : Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'ADDERLY-ESCRITO', ip: '172.29.48.1'
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\Adderly\IdeaProjec..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromedriverPort: 11000, appium:deviceName: pixel_8_pro, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\Adderly\IdeaProjec..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromedriverPort: 11000, appium:deviceName: pixel_8_pro, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:37.271 ServerManager:33 - Appium Service started
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:37.390 DriverManager:25 - Initializing Appium driver...
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:37.402 DriverManager:38 - params.getPlatformName() = Android
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:37.429 PropertyManager:17 - Loaded properties file
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:50.639 DriverManager:28 - Driver initialized.
+[Android_pixel_8_pro INFO ] 2024-07-12 01:37:59.639 BasePage:62 - Get text attribute: Returning error message from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Error message,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:03.078 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_invalid_username_2024-07-12_01-38-03.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:11.599 BasePage:62 - Get text attribute: Returning Title from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Cart drop zone,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:14.050 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_valid_credentials_2024-07-12_01-38-14.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:23.556 BasePage:62 - Get text attribute: Returning Product Title from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:24.139 BasePage:62 - Get text attribute: Returning Product Price from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:27.123 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_page_2024-07-12_01-38-27.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:37.251 BasePage:62 - Get text attribute: Returning PDP Title from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:37.619 BasePage:62 - Get text attribute: Returning PDP Description from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})})
+[Android_pixel_8_pro INFO ] 2024-07-12 01:38:46.044 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_Details_page_2024-07-12_01-38-45.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:29.298 ServerManager:33 - Appium Service started
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:29.408 DriverManager:25 - Initializing Appium driver...
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:29.444 DriverManager:38 - params.getPlatformName() = Android
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:29.505 PropertyManager:17 - Loaded properties file
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:42.991 DriverManager:28 - Driver initialized.
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:51.787 BasePage:62 - Get text attribute: Returning error message from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Error message,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:48:57.221 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_invalid_username_2024-07-12_17-48-57.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:10.819 BasePage:62 - Get text attribute: Returning Title from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Cart drop zone,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:12.928 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_valid_credentials_2024-07-12_17-49-12.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:22.301 BasePage:62 - Get text attribute: Returning Product Title from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:23.038 BasePage:62 - Get text attribute: Returning Product Price from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:27.207 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_page_2024-07-12_17-49-27.mp4
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:41.804 BasePage:62 - Get text attribute: Returning PDP Title from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:42.240 BasePage:62 - Get text attribute: Returning PDP Description from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})})
+[Android_pixel_8_pro INFO ] 2024-07-12 17:49:50.664 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_Details_page_2024-07-12_17-49-50.mp4
