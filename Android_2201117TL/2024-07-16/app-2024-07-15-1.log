@@ -1,0 +1,14 @@
+[Android_2201117TL INFO ] 2024-07-15 15:00:26.986 ServerManager:33 - Appium Service started
+[Android_2201117TL INFO ] 2024-07-15 15:00:27.053 DriverManager:25 - Initializing Appium driver...
+[Android_2201117TL INFO ] 2024-07-15 15:00:27.064 DriverManager:38 - params.getPlatformName() = Android
+[Android_2201117TL INFO ] 2024-07-15 15:00:43.208 DriverManager:28 - Driver initialized.
+[Android_2201117TL INFO ] 2024-07-15 15:00:50.088 BasePage:62 - Get text attribute: Returning error message from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Error message,AppiumBy.className: android.widget.TextView})})
+[Android_2201117TL INFO ] 2024-07-15 15:00:53.710 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\2201117TL_2dcaa2ce\Login_with_invalid_username_2024-07-15_15-00-53.mp4
+[Android_2201117TL INFO ] 2024-07-15 15:01:02.357 BasePage:62 - Get text attribute: Returning Title from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Cart drop zone,AppiumBy.className: android.widget.TextView})})
+[Android_2201117TL INFO ] 2024-07-15 15:01:04.620 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\2201117TL_2dcaa2ce\Login_with_valid_credentials_2024-07-15_15-01-04.mp4
+[Android_2201117TL INFO ] 2024-07-15 15:01:12.470 BasePage:62 - Get text attribute: Returning Product Title from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[Android_2201117TL INFO ] 2024-07-15 15:01:13.152 BasePage:62 - Get text attribute: Returning Product Price from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[Android_2201117TL INFO ] 2024-07-15 15:01:15.287 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\2201117TL_2dcaa2ce\Validate_product_info_on_Products_page_2024-07-15_15-01-15.mp4
+[Android_2201117TL INFO ] 2024-07-15 15:01:23.673 BasePage:62 - Get text attribute: Returning PDP Title from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})})
+[Android_2201117TL INFO ] 2024-07-15 15:01:24.075 BasePage:62 - Get text attribute: Returning PDP Description from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})})
+[Android_2201117TL INFO ] 2024-07-15 15:01:30.938 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\2201117TL_2dcaa2ce\Validate_product_info_on_Products_Details_page_2024-07-15_15-01-30.mp4
