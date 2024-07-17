@@ -7,7 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;
 
 public class LoginStepdef {
     @Given("I enter user name {string}")
@@ -27,11 +27,11 @@ public class LoginStepdef {
 
     @Then("I get the error message {string}")
     public void iGetTheErrorMessage(String errorMsg) {
-        assertEquals(errorMsg, new LoginPage().getErrorMessage());
+        assertEquals(new LoginPage().getErrorMessage(), errorMsg, "Error message is not correct");
     }
 
     @Then("I get the page title {string}")
     public void iGetThePageTitle(String title) {
-        assertEquals(title, new ProductsPage().getTitle());
+        assertEquals(new ProductsPage().getTitle(), title, "Title is not correct");
     }
 }

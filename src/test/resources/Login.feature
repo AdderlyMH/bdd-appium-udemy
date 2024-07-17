@@ -1,6 +1,6 @@
 Feature: Login scenarios
 
-  @Login
+  @Login @UnhappyPath
   Scenario Outline: Login with invalid username
     Given I enter user name "<username>"
     And I enter the password "<password>"
@@ -10,6 +10,7 @@ Feature: Login scenarios
       | username | password | error_message                                                |
       | invalid  | invalid  | ZZZUsername and password do not match any user in this service. |
 
+  @Login @HappyPath
   Scenario Outline: Login with valid credentials
     Given I enter user name "<username>"
     And I enter the password "<password>"

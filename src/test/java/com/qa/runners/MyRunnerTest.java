@@ -1,3 +1,4 @@
+/*
 package com.qa.runners;
 
 import com.qa.utils.DriverManager;
@@ -50,3 +51,4 @@ public class MyRunnerTest {
     }
 
 }
+*/

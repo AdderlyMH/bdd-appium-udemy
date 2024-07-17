@@ -1,0 +1,12 @@
+[Android_pixel_8_pro INFO ] 2024-07-16 01:06:40.081 PropertyManager:17 - Loaded properties file
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:07.081 DriverManager:28 - Driver initialized.
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:15.872 BasePage:62 - Get text attribute: Returning error message from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Error message,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:19.816 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_invalid_username_2024-07-16_01-07-19.mp4
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:31.794 BasePage:62 - Get text attribute: Returning Title from Located by By.chained({By.chained({AppiumBy.accessibilityId: test-Cart drop zone,AppiumBy.className: android.widget.TextView})})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:34.918 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Login_with_valid_credentials_2024-07-16_01-07-34.mp4
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:47.392 BasePage:62 - Get text attribute: Returning Product Title from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:47.850 BasePage:62 - Get text attribute: Returning Product Price from Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:07:50.722 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_page_2024-07-16_01-07-50.mp4
+[Android_pixel_8_pro INFO ] 2024-07-16 01:08:04.401 BasePage:62 - Get text attribute: Returning PDP Title from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:08:05.076 BasePage:62 - Get text attribute: Returning PDP Description from Located by By.chained({By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})})
+[Android_pixel_8_pro INFO ] 2024-07-16 01:08:14.645 VideoManager:36 - Video Path: C:\Users\Adderly\IdeaProjects\bdd-appium-udemy\Videos\Android\pixel_8_pro_emulator-5554\Validate_product_info_on_Products_Details_page_2024-07-16_01-08-14.mp4

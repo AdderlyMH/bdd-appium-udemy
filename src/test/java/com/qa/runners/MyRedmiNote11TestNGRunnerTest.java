@@ -16,7 +16,8 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
  * AbstractTestNGCucumberTests but still executes each scenario as a separate
  * TestNG test.
  */
-@CucumberOptions(plugin = {"pretty", "html:target/RedmiNote11/cucumber.html"},
+@CucumberOptions(plugin = {"pretty", "html:target/RedmiNote11/cucumber.html",
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 //        tags = "@Login",
         snippets = CAMELCASE,
         monochrome = true,

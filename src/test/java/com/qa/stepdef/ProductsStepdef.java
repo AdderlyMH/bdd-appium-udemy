@@ -7,7 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertTrue;
 
 public class ProductsStepdef {
     @Given("I'm logged in")
@@ -21,8 +21,8 @@ public class ProductsStepdef {
     public void theProductIsListedWithTitleAndPrice(String title, String price) {
         boolean checkTitle = new ProductsPage().getProductTitle().equalsIgnoreCase(title);
         boolean checkPrice = new ProductsPage().getProductPrice().equalsIgnoreCase(price);
-        assertTrue("No match. checkTitle: " + checkTitle +
-                ", checkPrice: " + checkPrice, checkTitle && checkPrice);
+        assertTrue(checkTitle && checkPrice, "No match. checkTitle: " + checkTitle +
+                ", checkPrice: " + checkPrice);
     }
 
     @When("I click on product title {string}")
